@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <h2>The DOM</h2>
+        <p>Finding HTML Elements Using </p>
+
+        <form id="frml" action="/action_page.php">
+            First name: <input type="text" name="fname" value="Mujaheed"><br>
+            Last name: <input type="text" name="lname" value="Alamin"><br></br>
+            <input type="Submit" value="Submit">
+        </form>
+
+        <p>These are the values of each element in the form</p>
+
+        <p id="demo"></p>
+
+        <script>
+            const x = document.forms["frml"];
+            let text = "";
+            for (let i = 0; < x.length ;i++) {
+                text += x.elements[i]. value + "<br>";
+
+            }
+            documents.getElementById("demo").innerHTML = text;
+        </script>
+    </body>
+</html>

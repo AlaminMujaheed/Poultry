@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+    <style>
+        table, th, td {
+            border:12px solid black;
+        }
+    </style>
+    <head>
+        <title>ASSINGMENT ON JAVASCRIPT</title>
+        <body>
+            <h1>1.HISTORY OF JAVASCRIPT</h1>
+            <p>JAVASCRIPPT Ia a cross-platforms, Object-oriented scripting language used to make webpages inter-active.</p>
+            <p>*-JavaScript was created at Netscape communicatiion by BRENDAN EICH in 1995.</p>
+            <p>*-Javascript is the world's most popular programming language.</p>
+            <p>*-JavaScript is the programming language of the web.</p>
+            <p>BRENDAN EICH developed javascript, a computer language,in just TEN DAYS in MAY 1995. Initially called MOCHA,then LIVESCRIPT,it finally became known as JAVASCRIPT.
+            <br>it was designed for the client-side of websites to add dynamic and inter-active elements to static HTML pages.</p>
+            <p>JAVASCRIPT was first implemented in NETSCAPE NAVIGATOR,the most popular browser at the time.</p>
+            
+            <h2>2.DIFFERENCIATE BETWEEN Var/Let/Const.</h2>
+            <table style="width:100%">
+                <tr>
+                    <th>VAR</th>
+                    <th>LET</th>
+                    <th>CONST</th>
+                </tr>
+                <tr>
+                    <td>The scope of a Var variable is functional or global scope</td>
+                    <td>It can be updated and re-declared in the same scope.</td>
+                    <td>It can be declared without initialization. </td>
+                </tr>
+                <tr>
+                    <td>The scope of a Let variable is block scope.</td>
+                    <td>It can be updated but cannot be declared in the same scope</td>
+                    <td>It can be declared without Initialization.</td>
+                </tr>
+                <tr>
+                    <td>The scope of a Const Variable is block scope</td>
+                    <td>It can neither be updated or re-declared in any scope.</td>
+                    <td>It cannot be declared without initialization.</td>
+                </tr>
+                <h2>When to Use Let and Const.</h2>
+                <p>Var can be tricky because its scope is either global or within a function, which can lead to bugs. To avoid these issues:</p>
+                <p>*Use Let when you know a variable's value might change later in your code.</p>
+                <p>*Use Const for variables that should never change once you set them.</p>
+                <p>Using LET and CONST makes your code easier to understand and helps prevent errors caused by unexpected variable changes.</p>
+
+            </table>
+            <h2>3.STRING</h2>
+            <p id="demo"></p>
+        <script>
+            function myFunction(p1, p2) {
+                return p1 / p2;
+            }
+            let result = myFunction(4,3);
+            document.getElementById("demo").innerHTML = result;
+            myFunction()
+
+
+
+            function func(n) {
+                let value = ["Alamin'Inuwa'Muhammad'Aisha'Amina'Aminu"];
+                console.log(value);
+            }
+            func();
+            function display(){
+            console.log('This is my first function')
+            }
+            display();
+            function text(){
+                console.log('Thank you Alamin')
+            } 
+            text();
+            function info(){
+                console.log('May god bless you')
+            }
+            info()
+            function work(){
+                console.log('This is my assignment')
+            }
+            work()
+            function last(){
+                console.log('This is the last function declaration')
+            }
+            last()
+
+
+
+            
+
+        
+
+
+            </script>
+            
+        </body>
+    </head>
+</html>

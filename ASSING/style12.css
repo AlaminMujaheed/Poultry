@@ -1,0 +1,22 @@
+button { 
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    bacground-color:#4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    transition: background-color
+
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+#toggleParagraph {
+    font-size: 18px;
+    margin-top: 20px;
+    display: block;
+}
+
